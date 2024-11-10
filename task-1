@@ -1,0 +1,10 @@
+#British Pounds to US Dollars conversion rate
+gbp_amount <- 100
+usd_amount <- gbp_amount * 1.2986
+print(paste(gbp_amount, "GBP is equal to", round(usd_amount, 2), "USD"))
+
+
+# Input today's temperature in Celsius
+current_temp_celsius <- 25
+current_temp_fahrenheit <- (current_temp_celsius * 9/5) + 32
+print(paste(current_temp_celsius, "°C is equal to", round(current_temp_fahrenheit, 2), "°F"))
