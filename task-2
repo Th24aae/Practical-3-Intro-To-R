@@ -1,0 +1,15 @@
+# Define variables
+stones <- 15
+pounds <- 7
+
+# Convert stones to pounds
+stones_to_pounds <- stones * 14
+
+# Calculate total pounds
+total_pounds <- stones_to_pounds + pounds
+
+# Convert pounds to kilograms
+kg <- total_pounds / 2.20462
+
+# Print the final result
+print(paste(stones, "st ", pounds, "lbs is equal to", round(kg, 2), "kg"))
